@@ -44,8 +44,6 @@
 //    document.getElementById("root")
 // );
 
-// ReactDOM.render(<h1>Hello Everyone!</h1>, document.getElementById("root"));
-// ReactDOM.render(<h1>Hello My Name is Shophar!</h1>, document.getElementById("like_button_container"));
 
 // Challenge - recreate the above line of code in vanilla JS by creating and appending an h1 to our div#root
 //  (without innerHTML)
@@ -56,7 +54,27 @@
 // - append it as a child of the div#root
 
 
-const h1 = document.createElement("h1");
-h1.textContent = "This is an imperative way to program"
-h1.className = "header"
-document.getElementById("root").append(h1);
+// const h1 = document.createElement("h1");
+// h1.textContent = "This is an imperative way to program"
+// h1.className = "header"
+// document.getElementById("root").append(h1);
+
+// JSX
+// ReactDOM.render(<h1>Hello Everyone!</h1>, document.getElementById("root"));
+// ReactDOM.render(<h1>Hello My Name is Shophar!</h1>, document.getElementById("like_button_container"));
+
+const navbar = (
+   <nav>
+    <h1>Bob's Bistro</h1>
+    <ul>
+        <li>Menu</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+   </nav>
+)
+
+ReactDOM.render(
+    navbar,
+    document.getElementById("root")
+)
