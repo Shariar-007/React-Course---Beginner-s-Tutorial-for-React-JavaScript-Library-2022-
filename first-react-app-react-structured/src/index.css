@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-logo{
+  width: 80px;
+  height: auto;
+}
+
+/* .nav-container{
+  background: rgb(7, 46, 46);
+} */
+
+.left-name{
+  /* font-size: 24px; */
+  color: rgb(27, 163, 163);
+  /* color: antiquewhite; */
+  font-weight: bold; 
+  margin-left: 15px;
+}
+
+.right-text{
+  font-size: 18px;
+  font-weight: bold;
+  /* color: white; */
+}
+
+.main-content{
+  margin-left: 15px;
+}
+
+.footer{
+  background: #152564;
+  color:rgb(27, 163, 163);
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
