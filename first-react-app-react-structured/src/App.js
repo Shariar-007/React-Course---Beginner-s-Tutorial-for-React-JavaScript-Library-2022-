@@ -1,6 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
 import './components/navbar';
+import Navbar from './components/navbar';
+import MainContent from './components/mainContent';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
           Learn React
         </a>
       </header> */}
+          <Navbar/>
+          <MainContent/>
+          <Footer/>
     </div>
   );
 }

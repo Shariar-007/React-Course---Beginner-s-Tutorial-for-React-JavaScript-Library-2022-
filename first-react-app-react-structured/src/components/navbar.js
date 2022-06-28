@@ -4,7 +4,7 @@ import logo from './../images/react-logo.png'
 
 function Navbar(){
     return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
         {/* <a class="navbar-brand" href="#">Navbar w/ text</a> */}
         <img src={logo} className="nav-logo" alt="logo" />

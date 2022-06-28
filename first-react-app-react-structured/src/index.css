@@ -17,9 +17,9 @@ code {
   height: auto;
 }
 
-/* .nav-container{
-  background: rgb(7, 46, 46);
-} */
+.navbar{
+  background-color: rgb(7, 46, 46);
+}
 
 .left-name{
   /* font-size: 24px; */
@@ -32,10 +32,17 @@ code {
 .right-text{
   font-size: 18px;
   font-weight: bold;
-  /* color: white; */
+  color: white;
 }
 
 .main-content{
+  margin-left: 15px;
+}
+
+.ordered-list{
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
   margin-left: 15px;
 }
 
